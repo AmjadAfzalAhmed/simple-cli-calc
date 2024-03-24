@@ -1,18 +1,20 @@
 {
-  "name": "simple-cli-calc",
+  "name": "@amjad_bhutto/simple-cli-calc",
   "version": "1.0.0",
   "description": "A calculator based on CLI",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Amjad",
   "license": "ISC",
   "dependencies": {
+    "@amjad_bhutto/simple-cli-calc": "^1.0.0",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
